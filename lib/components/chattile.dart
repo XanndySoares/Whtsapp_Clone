@@ -39,7 +39,7 @@ Widget chatTile(
                 ),
                 Row(
                   children: [
-                    Expanded(child: Text(userName)),
+                    Expanded(child: Text(msg)),
                     if (seen)
                       Icon(Icons.check_circle, size: 16.0, color: Colors.blue),
                     if (!seen)
